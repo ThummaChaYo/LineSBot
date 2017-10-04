@@ -1,0 +1,2 @@
+# LineSBot
+Line Selfbot
