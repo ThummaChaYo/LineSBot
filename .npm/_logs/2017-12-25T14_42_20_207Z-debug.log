@@ -1,0 +1,420 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'i' ]
+2 info using npm@5.6.0
+3 info using node@v9.2.0
+4 verbose npm-session 51ea314d97529637
+5 silly install runPreinstallTopLevelLifecycles
+6 silly preinstall alphat-new-generation@0.6.9
+7 info lifecycle alphat-new-generation@0.6.9~preinstall: alphat-new-generation@0.6.9
+8 silly install loadCurrentTree
+9 silly install readLocalPackageData
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 silly install loadShrinkwrap
+13 silly install loadAllDepsIntoIdealTree
+14 http fetch GET 304 https://registry.npmjs.org/moment 862ms (from cache)
+15 http fetch GET 304 https://registry.npmjs.org/request-promise 883ms (from cache)
+16 http fetch GET 304 https://registry.npmjs.org/thrift 949ms (from cache)
+17 silly pacote range manifest for moment@^2.18.1 fetched in 917ms
+18 silly pacote range manifest for request-promise@^2.0.0 fetched in 934ms
+19 silly pacote range manifest for thrift@^0.10.0 fetched in 1140ms
+20 http fetch GET 304 https://registry.npmjs.org/webp-converter 994ms (from cache)
+21 silly pacote range manifest for webp-converter@^2.1.6 fetched in 1007ms
+22 http fetch GET 304 https://registry.npmjs.org/bluebird 154ms (from cache)
+23 silly pacote range manifest for bluebird@^2.3 fetched in 198ms
+24 silly pacote range manifest for thrift@^0.10.0 fetched in 32ms
+25 silly resolveWithNewModule thrift@0.10.0 checking installable status
+26 silly pacote range manifest for request-promise@^2.0.0 fetched in 45ms
+27 silly resolveWithNewModule request-promise@2.0.1 checking installable status
+28 silly pacote range manifest for webp-converter@^2.1.6 fetched in 51ms
+29 silly resolveWithNewModule webp-converter@2.1.6 checking installable status
+30 silly pacote range manifest for moment@^2.18.1 fetched in 55ms
+31 silly resolveWithNewModule moment@2.20.1 checking installable status
+32 silly pacote range manifest for bluebird@^2.3 fetched in 28ms
+33 silly resolveWithNewModule bluebird@2.11.0 checking installable status
+34 silly currentTree alphat-new-generation@0.6.9
+34 silly currentTree ├── ansi-regex@2.1.1
+34 silly currentTree ├── ansi-styles@2.2.1
+34 silly currentTree ├── asn1@0.2.3
+34 silly currentTree ├── assert-plus@0.2.0
+34 silly currentTree ├── async@0.9.2
+34 silly currentTree ├── aws-sign2@0.6.0
+34 silly currentTree ├── aws4@1.6.0
+34 silly currentTree ├── bcrypt-pbkdf@1.0.1
+34 silly currentTree ├── bl@1.1.2
+34 silly currentTree ├── bluebird@3.5.0
+34 silly currentTree ├── boom@2.10.1
+34 silly currentTree ├── caseless@0.11.0
+34 silly currentTree ├── chalk@1.1.3
+34 silly currentTree ├── combined-stream@0.0.7
+34 silly currentTree ├── commander@2.1.0
+34 silly currentTree ├── core-util-is@1.0.2
+34 silly currentTree ├── cryptiles@2.0.5
+34 silly currentTree ├─┬ dashdash@1.14.1
+34 silly currentTree │ └── assert-plus@1.0.0
+34 silly currentTree ├── delayed-stream@0.0.5
+34 silly currentTree ├── ecc-jsbn@0.1.1
+34 silly currentTree ├── escape-string-regexp@1.0.5
+34 silly currentTree ├── extend@3.0.1
+34 silly currentTree ├── extsprintf@1.3.0
+34 silly currentTree ├── forever-agent@0.6.1
+34 silly currentTree ├── form-data@0.2.0
+34 silly currentTree ├── generate-function@2.0.0
+34 silly currentTree ├── generate-object-property@1.2.0
+34 silly currentTree ├─┬ getpass@0.1.7
+34 silly currentTree │ └── assert-plus@1.0.0
+34 silly currentTree ├─┬ har-validator@2.0.6
+34 silly currentTree │ └── commander@2.11.0
+34 silly currentTree ├── has-ansi@2.0.0
+34 silly currentTree ├── hawk@3.1.3
+34 silly currentTree ├── hoek@2.16.3
+34 silly currentTree ├── http-signature@1.1.1
+34 silly currentTree ├── inherits@2.0.3
+34 silly currentTree ├── is-my-json-valid@2.16.1
+34 silly currentTree ├── is-property@1.0.2
+34 silly currentTree ├── is-typedarray@1.0.0
+34 silly currentTree ├── isarray@1.0.0
+34 silly currentTree ├── isstream@0.1.2
+34 silly currentTree ├── jsbn@0.1.1
+34 silly currentTree ├── json-schema@0.2.3
+34 silly currentTree ├── json-stringify-safe@5.0.1
+34 silly currentTree ├── jsonpointer@4.0.1
+34 silly currentTree ├─┬ jsprim@1.4.1
+34 silly currentTree │ └── assert-plus@1.0.0
+34 silly currentTree ├── lodash@4.17.4
+34 silly currentTree ├── mime-db@1.12.0
+34 silly currentTree ├── mime-types@2.0.14
+34 silly currentTree ├── moment@2.20.1
+34 silly currentTree ├── nan@1.0.0
+34 silly currentTree ├── node-bignumber@1.2.1
+34 silly currentTree ├── node-int64@0.3.3
+34 silly currentTree ├── node-uuid@1.4.8
+34 silly currentTree ├── oauth-sign@0.8.2
+34 silly currentTree ├── options@0.0.6
+34 silly currentTree ├── pinkie-promise@2.0.1
+34 silly currentTree ├── pinkie@2.0.4
+34 silly currentTree ├── process-nextick-args@1.0.7
+34 silly currentTree ├── punycode@1.4.1
+34 silly currentTree ├── q@1.0.1
+34 silly currentTree ├── qrcode-terminal@0.11.0
+34 silly currentTree ├── qs@6.2.3
+34 silly currentTree ├── readable-stream@2.0.6
+34 silly currentTree ├─┬ request-promise@2.0.1
+34 silly currentTree │ └── bluebird@2.11.0
+34 silly currentTree ├─┬ request@2.74.0
+34 silly currentTree │ ├── async@2.5.0
+34 silly currentTree │ ├── combined-stream@1.0.5
+34 silly currentTree │ ├── delayed-stream@1.0.0
+34 silly currentTree │ ├── form-data@1.0.1
+34 silly currentTree │ ├── mime-db@1.30.0
+34 silly currentTree │ └── mime-types@2.1.17
+34 silly currentTree ├── sntp@1.0.9
+34 silly currentTree ├─┬ sshpk@1.13.1
+34 silly currentTree │ └── assert-plus@1.0.0
+34 silly currentTree ├── string_decoder@0.10.31
+34 silly currentTree ├── stringstream@0.0.5
+34 silly currentTree ├── strip-ansi@3.0.1
+34 silly currentTree ├── supports-color@2.0.0
+34 silly currentTree ├─┬ thrift-http@1.0.1
+34 silly currentTree │ └── node-int64@0.4.0
+34 silly currentTree ├── thrift@0.10.0
+34 silly currentTree ├── tinycolor@0.0.1
+34 silly currentTree ├── tough-cookie@2.3.2
+34 silly currentTree ├── tunnel-agent@0.4.3
+34 silly currentTree ├── tweetnacl@0.14.5
+34 silly currentTree ├── utf8@2.1.2
+34 silly currentTree ├── util-deprecate@1.0.2
+34 silly currentTree ├─┬ verror@1.10.0
+34 silly currentTree │ └── assert-plus@1.0.0
+34 silly currentTree ├── webp-converter@2.1.6
+34 silly currentTree ├── ws@0.4.32
+34 silly currentTree └── xtend@4.0.1
+35 silly idealTree alphat-new-generation@0.6.9
+35 silly idealTree ├── ansi-regex@2.1.1
+35 silly idealTree ├── ansi-styles@2.2.1
+35 silly idealTree ├── asn1@0.2.3
+35 silly idealTree ├── assert-plus@0.2.0
+35 silly idealTree ├── async@0.9.2
+35 silly idealTree ├── aws-sign2@0.6.0
+35 silly idealTree ├── aws4@1.6.0
+35 silly idealTree ├── bcrypt-pbkdf@1.0.1
+35 silly idealTree ├── bl@1.1.2
+35 silly idealTree ├── bluebird@3.5.0
+35 silly idealTree ├── boom@2.10.1
+35 silly idealTree ├── caseless@0.11.0
+35 silly idealTree ├── chalk@1.1.3
+35 silly idealTree ├── combined-stream@0.0.7
+35 silly idealTree ├── commander@2.1.0
+35 silly idealTree ├── core-util-is@1.0.2
+35 silly idealTree ├── cryptiles@2.0.5
+35 silly idealTree ├─┬ dashdash@1.14.1
+35 silly idealTree │ └── assert-plus@1.0.0
+35 silly idealTree ├── delayed-stream@0.0.5
+35 silly idealTree ├── ecc-jsbn@0.1.1
+35 silly idealTree ├── escape-string-regexp@1.0.5
+35 silly idealTree ├── extend@3.0.1
+35 silly idealTree ├── extsprintf@1.3.0
+35 silly idealTree ├── forever-agent@0.6.1
+35 silly idealTree ├── form-data@0.2.0
+35 silly idealTree ├── generate-function@2.0.0
+35 silly idealTree ├── generate-object-property@1.2.0
+35 silly idealTree ├─┬ getpass@0.1.7
+35 silly idealTree │ └── assert-plus@1.0.0
+35 silly idealTree ├─┬ har-validator@2.0.6
+35 silly idealTree │ └── commander@2.11.0
+35 silly idealTree ├── has-ansi@2.0.0
+35 silly idealTree ├── hawk@3.1.3
+35 silly idealTree ├── hoek@2.16.3
+35 silly idealTree ├── http-signature@1.1.1
+35 silly idealTree ├── inherits@2.0.3
+35 silly idealTree ├── is-my-json-valid@2.16.1
+35 silly idealTree ├── is-property@1.0.2
+35 silly idealTree ├── is-typedarray@1.0.0
+35 silly idealTree ├── isarray@1.0.0
+35 silly idealTree ├── isstream@0.1.2
+35 silly idealTree ├── jsbn@0.1.1
+35 silly idealTree ├── json-schema@0.2.3
+35 silly idealTree ├── json-stringify-safe@5.0.1
+35 silly idealTree ├── jsonpointer@4.0.1
+35 silly idealTree ├─┬ jsprim@1.4.1
+35 silly idealTree │ └── assert-plus@1.0.0
+35 silly idealTree ├── lodash@4.17.4
+35 silly idealTree ├── mime-db@1.12.0
+35 silly idealTree ├── mime-types@2.0.14
+35 silly idealTree ├── mime@1.3.6
+35 silly idealTree ├── moment@2.20.1
+35 silly idealTree ├── nan@1.0.0
+35 silly idealTree ├── node-bignumber@1.2.1
+35 silly idealTree ├── node-int64@0.3.3
+35 silly idealTree ├── node-uuid@1.4.8
+35 silly idealTree ├── oauth-sign@0.8.2
+35 silly idealTree ├── options@0.0.6
+35 silly idealTree ├── pinkie-promise@2.0.1
+35 silly idealTree ├── pinkie@2.0.4
+35 silly idealTree ├── process-nextick-args@1.0.7
+35 silly idealTree ├── punycode@1.4.1
+35 silly idealTree ├── q@1.0.1
+35 silly idealTree ├── qrcode-terminal@0.11.0
+35 silly idealTree ├── qs@6.2.3
+35 silly idealTree ├── readable-stream@2.0.6
+35 silly idealTree ├─┬ request-promise@2.0.1
+35 silly idealTree │ └── bluebird@2.11.0
+35 silly idealTree ├─┬ request@2.74.0
+35 silly idealTree │ ├── async@2.5.0
+35 silly idealTree │ ├── combined-stream@1.0.5
+35 silly idealTree │ ├── delayed-stream@1.0.0
+35 silly idealTree │ ├── form-data@1.0.1
+35 silly idealTree │ ├── mime-db@1.30.0
+35 silly idealTree │ └── mime-types@2.1.17
+35 silly idealTree ├── sntp@1.0.9
+35 silly idealTree ├─┬ sshpk@1.13.1
+35 silly idealTree │ └── assert-plus@1.0.0
+35 silly idealTree ├── string_decoder@0.10.31
+35 silly idealTree ├── stringstream@0.0.5
+35 silly idealTree ├── strip-ansi@3.0.1
+35 silly idealTree ├── supports-color@2.0.0
+35 silly idealTree ├─┬ thrift-http@1.0.1
+35 silly idealTree │ └── node-int64@0.4.0
+35 silly idealTree ├── thrift@0.10.0
+35 silly idealTree ├── tinycolor@0.0.1
+35 silly idealTree ├── tough-cookie@2.3.2
+35 silly idealTree ├── tunnel-agent@0.4.3
+35 silly idealTree ├── tweetnacl@0.14.5
+35 silly idealTree ├── unirest@0.5.1
+35 silly idealTree ├── utf8@2.1.2
+35 silly idealTree ├── util-deprecate@1.0.2
+35 silly idealTree ├─┬ verror@1.10.0
+35 silly idealTree │ └── assert-plus@1.0.0
+35 silly idealTree ├── webp-converter@2.1.6
+35 silly idealTree ├── ws@0.4.32
+35 silly idealTree └── xtend@4.0.1
+36 silly install generateActionsToTake
+37 silly diffTrees action count 2
+38 silly diffTrees add mime@1.3.6
+39 silly diffTrees add unirest@0.5.1
+40 silly decomposeActions action count 16
+41 silly decomposeActions fetch mime@1.3.6
+42 silly decomposeActions extract mime@1.3.6
+43 silly decomposeActions preinstall mime@1.3.6
+44 silly decomposeActions build mime@1.3.6
+45 silly decomposeActions install mime@1.3.6
+46 silly decomposeActions postinstall mime@1.3.6
+47 silly decomposeActions finalize mime@1.3.6
+48 silly decomposeActions refresh-package-json mime@1.3.6
+49 silly decomposeActions fetch unirest@0.5.1
+50 silly decomposeActions extract unirest@0.5.1
+51 silly decomposeActions preinstall unirest@0.5.1
+52 silly decomposeActions build unirest@0.5.1
+53 silly decomposeActions install unirest@0.5.1
+54 silly decomposeActions postinstall unirest@0.5.1
+55 silly decomposeActions finalize unirest@0.5.1
+56 silly decomposeActions refresh-package-json unirest@0.5.1
+57 silly install executeActions
+58 silly doSerial global-install 16
+59 verbose correctMkdir /data/data/com.termux/files/home/.npm/_locks correctMkdir not in flight; initializing
+60 verbose lock using /data/data/com.termux/files/home/.npm/_locks/staging-1673a2f2ba27230b.lock for /storage/emulated/0/Download/alphat-new/node_modules/.staging
+61 silly doParallel extract 16
+62 silly extract mime@1.3.6
+63 silly pacote trying mime@https://registry.npmjs.org/mime/-/mime-1.3.6.tgz by hash: sha1-WR2E02U6awtKO5343lqoEI5y5eA=
+64 silly extract unirest@0.5.1
+65 silly pacote trying unirest@https://registry.npmjs.org/unirest/-/unirest-0.5.1.tgz by hash: sha1-nfV2YYcoDyRbTpp1zh+tMTM31u0=
+66 silly pacote mime@https://registry.npmjs.org/mime/-/mime-1.3.6.tgz extracted to /storage/emulated/0/Download/alphat-new/node_modules/.staging/mime-fc7ed301 by content address 191ms
+67 silly pacote unirest@https://registry.npmjs.org/unirest/-/unirest-0.5.1.tgz extracted to /storage/emulated/0/Download/alphat-new/node_modules/.staging/unirest-75083e32 by content address 195ms
+68 silly doReverseSerial unbuild 16
+69 silly doSerial remove 16
+70 silly doSerial move 16
+71 silly doSerial finalize 16
+72 silly finalize /storage/emulated/0/Download/alphat-new/node_modules/mime
+73 silly finalize /storage/emulated/0/Download/alphat-new/node_modules/unirest
+74 silly doParallel refresh-package-json 16
+75 silly refresh-package-json /storage/emulated/0/Download/alphat-new/node_modules/mime
+76 silly refresh-package-json /storage/emulated/0/Download/alphat-new/node_modules/unirest
+77 silly doParallel preinstall 16
+78 silly preinstall mime@1.3.6
+79 info lifecycle mime@1.3.6~preinstall: mime@1.3.6
+80 silly preinstall unirest@0.5.1
+81 info lifecycle unirest@0.5.1~preinstall: unirest@0.5.1
+82 silly doSerial build 16
+83 silly build mime@1.3.6
+84 info linkStuff mime@1.3.6
+85 silly linkStuff mime@1.3.6 has /storage/emulated/0/Download/alphat-new/node_modules as its parent node_modules
+86 verbose linkBins mime@1.3.6
+87 verbose linkBins [ { mime: 'cli.js' },
+87 verbose linkBins   '/storage/emulated/0/Download/alphat-new/node_modules/.bin',
+87 verbose linkBins   false ]
+88 verbose linkMans mime@1.3.6
+89 verbose unlock done using /data/data/com.termux/files/home/.npm/_locks/staging-1673a2f2ba27230b.lock for /storage/emulated/0/Download/alphat-new/node_modules/.staging
+90 silly saveTree alphat-new-generation@0.6.9
+90 silly saveTree ├── bluebird@3.5.0
+90 silly saveTree ├── moment@2.20.1
+90 silly saveTree ├── node-bignumber@1.2.1
+90 silly saveTree ├── qrcode-terminal@0.11.0
+90 silly saveTree ├─┬ request-promise@2.0.1
+90 silly saveTree │ ├── bluebird@2.11.0
+90 silly saveTree │ ├── lodash@4.17.4
+90 silly saveTree │ └─┬ request@2.74.0
+90 silly saveTree │   ├── aws-sign2@0.6.0
+90 silly saveTree │   ├── aws4@1.6.0
+90 silly saveTree │   ├─┬ bl@1.1.2
+90 silly saveTree │   │ └─┬ readable-stream@2.0.6
+90 silly saveTree │   │   ├── core-util-is@1.0.2
+90 silly saveTree │   │   ├── inherits@2.0.3
+90 silly saveTree │   │   ├── isarray@1.0.0
+90 silly saveTree │   │   ├── process-nextick-args@1.0.7
+90 silly saveTree │   │   ├── string_decoder@0.10.31
+90 silly saveTree │   │   └── util-deprecate@1.0.2
+90 silly saveTree │   ├── caseless@0.11.0
+90 silly saveTree │   ├─┬ combined-stream@1.0.5
+90 silly saveTree │   │ └── delayed-stream@1.0.0
+90 silly saveTree │   ├── extend@3.0.1
+90 silly saveTree │   ├── forever-agent@0.6.1
+90 silly saveTree │   ├─┬ form-data@1.0.1
+90 silly saveTree │   │ ├── async@2.5.0
+90 silly saveTree │   │ └─┬ mime-types@2.1.17
+90 silly saveTree │   │   └── mime-db@1.30.0
+90 silly saveTree │   ├─┬ har-validator@2.0.6
+90 silly saveTree │   │ ├─┬ chalk@1.1.3
+90 silly saveTree │   │ │ ├── ansi-styles@2.2.1
+90 silly saveTree │   │ │ ├── escape-string-regexp@1.0.5
+90 silly saveTree │   │ │ ├─┬ has-ansi@2.0.0
+90 silly saveTree │   │ │ │ └── ansi-regex@2.1.1
+90 silly saveTree │   │ │ ├── strip-ansi@3.0.1
+90 silly saveTree │   │ │ └── supports-color@2.0.0
+90 silly saveTree │   │ ├── commander@2.11.0
+90 silly saveTree │   │ ├─┬ is-my-json-valid@2.16.1
+90 silly saveTree │   │ │ ├── generate-function@2.0.0
+90 silly saveTree │   │ │ ├─┬ generate-object-property@1.2.0
+90 silly saveTree │   │ │ │ └── is-property@1.0.2
+90 silly saveTree │   │ │ ├── jsonpointer@4.0.1
+90 silly saveTree │   │ │ └── xtend@4.0.1
+90 silly saveTree │   │ └─┬ pinkie-promise@2.0.1
+90 silly saveTree │   │   └── pinkie@2.0.4
+90 silly saveTree │   ├─┬ hawk@3.1.3
+90 silly saveTree │   │ ├─┬ boom@2.10.1
+90 silly saveTree │   │ │ └── hoek@2.16.3
+90 silly saveTree │   │ ├── cryptiles@2.0.5
+90 silly saveTree │   │ ├── hoek@2.16.3
+90 silly saveTree │   │ └── sntp@1.0.9
+90 silly saveTree │   ├─┬ http-signature@1.1.1
+90 silly saveTree │   │ ├── assert-plus@0.2.0
+90 silly saveTree │   │ ├─┬ jsprim@1.4.1
+90 silly saveTree │   │ │ ├── assert-plus@1.0.0
+90 silly saveTree │   │ │ ├── extsprintf@1.3.0
+90 silly saveTree │   │ │ ├── json-schema@0.2.3
+90 silly saveTree │   │ │ └─┬ verror@1.10.0
+90 silly saveTree │   │ │   └── assert-plus@1.0.0
+90 silly saveTree │   │ └─┬ sshpk@1.13.1
+90 silly saveTree │   │   ├── asn1@0.2.3
+90 silly saveTree │   │   ├── assert-plus@1.0.0
+90 silly saveTree │   │   ├─┬ bcrypt-pbkdf@1.0.1
+90 silly saveTree │   │   │ └── tweetnacl@0.14.5
+90 silly saveTree │   │   ├─┬ dashdash@1.14.1
+90 silly saveTree │   │   │ └── assert-plus@1.0.0
+90 silly saveTree │   │   ├─┬ ecc-jsbn@0.1.1
+90 silly saveTree │   │   │ └── jsbn@0.1.1
+90 silly saveTree │   │   ├─┬ getpass@0.1.7
+90 silly saveTree │   │   │ └── assert-plus@1.0.0
+90 silly saveTree │   │   ├── jsbn@0.1.1
+90 silly saveTree │   │   └── tweetnacl@0.14.5
+90 silly saveTree │   ├── is-typedarray@1.0.0
+90 silly saveTree │   ├── isstream@0.1.2
+90 silly saveTree │   ├── json-stringify-safe@5.0.1
+90 silly saveTree │   ├── mime-types@2.1.17
+90 silly saveTree │   ├── node-uuid@1.4.8
+90 silly saveTree │   ├── oauth-sign@0.8.2
+90 silly saveTree │   ├── qs@6.2.3
+90 silly saveTree │   ├── stringstream@0.0.5
+90 silly saveTree │   ├─┬ tough-cookie@2.3.2
+90 silly saveTree │   │ └── punycode@1.4.1
+90 silly saveTree │   └── tunnel-agent@0.4.3
+90 silly saveTree ├── request@2.74.0
+90 silly saveTree ├─┬ thrift-http@1.0.1
+90 silly saveTree │ ├── node-int64@0.4.0
+90 silly saveTree │ ├── q@1.0.1
+90 silly saveTree │ └─┬ ws@0.4.32
+90 silly saveTree │   ├── commander@2.1.0
+90 silly saveTree │   ├── nan@1.0.0
+90 silly saveTree │   ├── options@0.0.6
+90 silly saveTree │   └── tinycolor@0.0.1
+90 silly saveTree ├─┬ thrift@0.10.0
+90 silly saveTree │ └── node-int64@0.3.3
+90 silly saveTree ├─┬ unirest@0.5.1
+90 silly saveTree │ ├─┬ form-data@0.2.0
+90 silly saveTree │ │ ├── async@0.9.2
+90 silly saveTree │ │ ├─┬ combined-stream@0.0.7
+90 silly saveTree │ │ │ └── delayed-stream@0.0.5
+90 silly saveTree │ │ └─┬ mime-types@2.0.14
+90 silly saveTree │ │   └── mime-db@1.12.0
+90 silly saveTree │ └── mime@1.3.6
+90 silly saveTree ├── utf8@2.1.2
+90 silly saveTree └── webp-converter@2.1.6
+91 verbose stack Error: EACCES: permission denied, symlink '../mime/cli.js' -> '/storage/emulated/0/Download/alphat-new/node_modules/.bin/mime'
+92 verbose cwd /storage/emulated/0/Download/alphat-new
+93 verbose Linux 3.10.49-perf-g3847dbe
+94 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "i"
+95 verbose node v9.2.0
+96 verbose npm  v5.6.0
+97 error path ../mime/cli.js
+98 error code EACCES
+99 error errno -13
+100 error syscall symlink
+101 error Error: EACCES: permission denied, symlink '../mime/cli.js' -> '/storage/emulated/0/Download/alphat-new/node_modules/.bin/mime'
+101 error  { Error: EACCES: permission denied, symlink '../mime/cli.js' -> '/storage/emulated/0/Download/alphat-new/node_modules/.bin/mime'
+101 error   cause:
+101 error    { Error: EACCES: permission denied, symlink '../mime/cli.js' -> '/storage/emulated/0/Download/alphat-new/node_modules/.bin/mime'
+101 error      errno: -13,
+101 error      code: 'EACCES',
+101 error      syscall: 'symlink',
+101 error      path: '../mime/cli.js',
+101 error      dest: '/storage/emulated/0/Download/alphat-new/node_modules/.bin/mime' },
+101 error   stack: 'Error: EACCES: permission denied, symlink \'../mime/cli.js\' -> \'/storage/emulated/0/Download/alphat-new/node_modules/.bin/mime\'',
+101 error   errno: -13,
+101 error   code: 'EACCES',
+101 error   syscall: 'symlink',
+101 error   path: '../mime/cli.js',
+101 error   dest: '/storage/emulated/0/Download/alphat-new/node_modules/.bin/mime',
+101 error   parent: 'alphat-new-generation' }
+102 error Please try running this command again as root/Administrator.
+103 verbose exit [ -13, true ]
